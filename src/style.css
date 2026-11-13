@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  margin: 0;
+  padding: 40px 16px;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.add-task {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.add-task input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #000000;
+  font-size: 16px;
+}
+
+button {
+  padding: 8px 14px;
+  border: 1px solid #000000;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid #000000;
+}
+
+li span {
+  flex: 1;
+}
+
+li.done span {
+  text-decoration: line-through;
+  color: #666666;
+}
